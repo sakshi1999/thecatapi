@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+}
+
+.header {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 50px;
+    color: #ffffff;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+  }
+
+  .vote:hover{
+      cursor: pointer;
+      color: wheat;
+      text-decoration: underline;
+  }
+
+  .images:hover{
+      cursor: pointer;
+      color: wheat;
+      text-decoration: underline;
+  }
+
+  .favourites:hover{
+      cursor: pointer;
+      color: wheat;
+      text-decoration: underline;
+  }
+
+  .upload:hover{
+      cursor: pointer;
+      color: wheat;
+      text-decoration: underline;
+  }
+
+  .btn {
+    margin-left: 40%;
+    margin-top: 30px;
+    border: 0;
+    outline: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .likebtn {
+    background-color: green;
+  }
+  
+  .dislikebtn {
+    background-color: rgb(228, 13, 13);
+  }
+  .randomImage{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+    box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+    align-items: center;
+  }
+  .cat__image{
+    width: 90%;
+    padding-left: 30px ;
+    padding-right: 30px ;
+    position: relative;
+  }
+
+  .liked{
+      padding-left: 45%;
+      font-size: 25px;
+      color: red;
+  }
+
+  .disliked{
+    padding-left: 45%;
+    font-size: 25px;
+      color: rgb(194, 189, 189);
+  }
+
+  .fav__it{
+   background-color: white;
+    color: white;
+    border: 1px whitesmoke;
+    outline: none;
+  }
+
+  .fav__it:hover{
+    background-color: rgb(182, 231, 182);
+    border: 0;
+    outline: none;
+    width: 40%;
+    padding: 10px;
+  }

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vote page</title>
+    <link rel="stylesheet" href="../css/vote.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet prefetch"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <span class="vote" onclick="vote()">VOTE</span>
+      <span class="images" id="images" onclick="images()">IMAGES/SEARCH</span>
+      <span class="favourites" onclick="favourtie()">FAVOURITE</span>
+      <span class="upload" onclick="upload()">UPLOAD</span>
+    </div>
+    <!-- <h1>I am vote page</h1> -->
+    <div class="btn">
+      <button class="likebtn" id="likebtn">
+        <i class="fa fa-thumbs-up" aria-hidden="true"></i> LOVE IT
+      </button>
+      <button class="dislikebtn" id="dislikebtn">
+        <i class="fa fa-thumbs-down" aria-hidden="true"></i> NOPE IT
+      </button>
+    </div>
+    <div class="randomImage">
+      <div id="cat-image">
+        <img class="cat__image" id="cat__image" src="" alt="" />
+      </div>
+      <button class="fav__it" onclick="favlist()">FAV-IT</button>
+    </div>
+
+    <script src="../js/vote.js"></script>
+  </body>
+</html>

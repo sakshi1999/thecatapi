@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>favourites</title>
+    <link rel="stylesheet" href="../css/favourite.css">
+</head>
+<body>
+    <div class="header">
+        <span class="vote" onclick="vote()">VOTE</span>
+        <span class="images" onclick="images()">IMAGES/SEARCH</span>
+        <span class="favourites" onclick="favourtie()">FAVOURITE</span>
+        <span class="upload" onclick="upload()">UPLOAD</span>
+      </div>
+    <!-- <h1>I AM FAVOURTIES PAGE</h1> -->
+    <div class="sort">
+        <label class="order">order</label>
+        <select onchange="orderdata(this)" class="options">
+            <option>Desc</option>
+            <option>Aesc</option>
+        </select>
+    </div> 
+   <div id="allimagewrapper" class="favimages">
+       
+   </div>
+
+    <script src="../js/favourite.js"></script>
+</body>
+</html>

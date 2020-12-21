@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images/search</title>
+    <link rel="stylesheet" href="../css/images.css">
+</head>
+<body>
+    <div class="header">
+        <span class="vote" onclick="vote()">VOTE</span>
+        <span class="images" onclick="images()">IMAGES/SEARCH</span>
+        <span class="favourites" onclick="favourtie()">FAVOURITE</span>
+        <span class="upload" onclick="upload()">UPLOAD</span>
+      </div>
+    <!-- <h1>I AM IMAGE/SEARCH PAGE</h1> -->
+    <div class="select__section">
+        <div class="select__section1">
+            <div class="sort">
+                <label class="order">order</label>
+                <select onchange="orderdata(this)" class="options">
+                    <option>Desc</option>
+                    <option>Aesc</option>
+                </select>
+            </div>
+            <div class="sort">
+                <label class="order">breed</label>
+                <select onchange="breed(this)" class="options">
+                    <option></option>
+                    <option>Abyssinian</option>
+                    <option>Aegean</option>
+                    <option>American Bobtail</option>
+                    <option>American Curl</option>
+                    <option>American Shorthair</option>
+                    <option>Balinese</option>
+                    <option>Bambino</option>
+                    <option>perisan</option>
+                    <option>serbian</option>
+
+                    
+                </select>
+            </div>
+        </div>
+        
+<div class="select__section1">
+    <div class="sort">
+        <label class="order">category</label>
+        <select onchange="breed(this)"  class="options">
+            <option>sunglasses</option>
+            <option>clothes</option>
+            
+            
+        </select>
+    </div>
+    <div class="sort">
+        <label class="order">Type</label>
+        <select onchange="types(this)" class="options">
+            <option>All</option>
+            <option>baby</option>
+            <option>adult</option>
+            
+        </select>
+    </div>
+</div>
+      
+    </div>
+   
+    <div id="listcat" class="listcat">
+
+    </div>
+    <script src="../js/images.js"></script>
+</body>
+</html>

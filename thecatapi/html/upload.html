@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upload</title>
+    <link rel="stylesheet" href="../css/upload.css">
+    <link
+    rel="stylesheet prefetch"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+  />
+</head>
+<body>
+    <div class="header">
+        <span class="vote" onclick="vote()">VOTE</span>
+        <span class="images" onclick="images()">IMAGES/SEARCH</span>
+        <span class="favourites" onclick="favourtie()">FAVOURITE</span>
+        <span class="upload" onclick="upload()">UPLOAD</span>
+      </div>
+    <!-- <h1>I AM UPLOAD PAGE</h1> -->
+      <!-- <input type="file"  onchange="uploadcat(this)" id="uploadimage" /> -->
+      <div class="body">
+        <div class="droparea">
+            <span class="cloud-download"><i class="fa fa-cloud-download" aria-hidden="true"></i></span>
+            <div class="input__file">
+              <input type="file"  onchange="uploadcat(this)" id="uploadimage" class="upload__file"/>
+            </div>
+            
+
+            
+        </div>
+        <p class="uploadIns">Upload a .jpg or .png Cat Image</p>
+    </div>
+    <script src="../js/upload.js"></script>
+</body>
+</html>
